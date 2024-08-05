@@ -1,10 +1,12 @@
 import React from "react";
+import "../style/main.scss";
 import Layout from "../components/Layout";
+import Home from "./Home";
 
 const IndexPage = () => {
   return (
     <Layout>
-
+      <Home />
     </Layout>
   )
 }
