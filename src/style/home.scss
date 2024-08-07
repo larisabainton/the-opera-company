@@ -1,0 +1,46 @@
+$landing-page-height: 90vh;
+
+.HomePage {
+    display: flex;
+    flex-direction: column;
+}
+
+.LandingSection {
+    display: flex;
+    position: absolute;
+    height: $landing-page-height;
+    top: 0;
+    overflow-x: hidden;
+    width: 100%;
+    justify-content: center;
+}
+
+.LandingSection_background {
+    height: $landing-page-height;
+    position: absolute;
+}
+
+.LandingSection_foreground {
+    display: flex;
+    position: relative;
+    height: $landing-page-height;
+    align-items: center;
+}
+
+.LandingSection_foreground .foreground_hook {
+    color: white;
+    font-weight: bold;
+    font-size: 92pt;
+}
+
+.background-video {
+    height: $landing-page-height;
+    
+}
+
+.AboutSection,
+.ContactSection,
+.FAQSection,
+.PerformanceSection {
+    position: relative;
+}
