@@ -3,8 +3,8 @@ import PerformanceCarousel from "../../components/PerformanceCarousel";
 
 const PerformanceSection = ({ performanceData }) => {
     return (
-        <div className="PerformanceSection">
-            <div className="page-title">
+        <div className="PerformanceSection page-section">
+            <div className="section-title">
                 Upcoming Performances
             </div>
             {performanceData && performanceData.length 

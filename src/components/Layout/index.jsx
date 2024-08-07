@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
     return (
         <div className="document">
             <Header />
-            <div className="page">{children}</div>
+            <main>{children}</main>
             <footer>© {new Date().getFullYear()} Larisa Bainton Hernandez</footer>
         </div>
     );
