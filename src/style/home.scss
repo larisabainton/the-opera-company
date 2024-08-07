@@ -34,8 +34,8 @@ $landing-page-height: 90vh;
 }
 
 .background-video {
-    height: $landing-page-height;
-    
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .AboutSection,
