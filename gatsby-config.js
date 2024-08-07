@@ -19,14 +19,14 @@ module.exports = {
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-sass", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/images/icon.png"
+      "icon": "src/assets/icon.png"
     }
   }, {
     resolve: 'gatsby-source-filesystem',
     options: {
-      "name": "images",
-      "path": "./src/images/"
+      "name": "assets",
+      "path": "./src/assets/"
     },
-    __key: "images"
+    __key: "assets"
   }]
 };
