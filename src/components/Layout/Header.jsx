@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header>
             <Link to="/">
-                <StaticImage src ="../../images/logo.png" alt="The Opera Company Logo"/>
+                <StaticImage className="logo" src ="../../assets/logo.png" alt="The Opera Company Logo"/>
             </Link>
         </header>
     )
