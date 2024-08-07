@@ -5,10 +5,9 @@ import FAQSection from "./FAQSection";
 import LandingSection from "./LandingSection";
 import PerformanceSection from "./PerformanceSection";
 
-
 const Home = () => {
     return (
-        <div className="homePage">
+        <div className="HomePage">
             <LandingSection />
             <PerformanceSection />
             <FAQSection />
