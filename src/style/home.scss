@@ -4,22 +4,16 @@
     flex-direction: column;
 }
 
-.HomePage_info {
-    position: absolute;
-    top: $landing-page-height;
-    width: 100%;
-}
-
 .page-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3%;
 }
 
 // LANDING SECTION
 .LandingSection {
     display: flex;
-    position: absolute;
     height: $landing-page-height;
     top: 0;
     overflow-x: hidden;
@@ -29,15 +23,17 @@
 }
 
 .LandingSection_background {
-    height: $landing-page-height;
-    position: absolute;
+    display: flex;
+    // min-height: 100%;
+    position: relative;
+    // min-width: 100%;
 }
 
 .LandingSection_foreground {
     display: flex;
-    position: relative;
-    height: $landing-page-height;
+    position: absolute;
     align-items: center;
+    height: inherit;
 }
 
 .LandingSection_foreground .foreground_hook {
@@ -47,12 +43,6 @@
 }
 
 .background-video {
-    min-width: 100%;
-    min-height: 100%;
-}
-
-// PERFORMANCE SECTION
-
-.PerformanceSection {
-
+    // min-height: 100%;
+    // min-width: 100%;
 }

@@ -1,8 +1,13 @@
 header {
     display: flex;
     align-items: center;
-    z-index: 10;
     height: 8.25vh;
+    width: 100%;
+    position: absolute;
+}
+
+header, footer {
+    z-index: 10;
 }
 
 header .logo {
