@@ -1,7 +1,7 @@
 header {
     display: flex;
-    align-items: center;
     height: 8.25vh;
+    min-height: 80px;
     width: 100%;
     position: absolute;
 }
@@ -10,6 +10,12 @@ header, footer {
     z-index: 10;
 }
 
+header a {
+    display: flex;
+    padding-left: 1.5vw;
+    padding-top: 1vh;
+}
+
 header .logo {
-    max-width: 40%;
+    display: inline-flex;
 }
