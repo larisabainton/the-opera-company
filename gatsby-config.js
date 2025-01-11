@@ -36,6 +36,9 @@ module.exports = {
       web: [{
         name: "DM Serif Text",
         file: 'https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap'
+      }, {
+        name: "Rammetto One",
+        file: "https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap"
       }]
     }
     
