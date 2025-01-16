@@ -33,12 +33,12 @@ module.exports = {
     options: {
       enableListener: true,
       preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
-      web: [{
-        name: "DM Serif Text",
-        file: 'https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap'
-      }, {
+      web: [ {
         name: "Rammetto One",
         file: "https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap"
+      }, {
+        name: "Quicksand",
+        file: 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap',
       }]
     }
     
