@@ -2,7 +2,9 @@ import React from "react";
 
 const TicketsButton = () => {
     return (
-        <div className="TicketsButton"></div>
+        <button className="TicketsButton">
+            <a href="/">Get Tickets</a>
+        </button>
     )
 };
 
