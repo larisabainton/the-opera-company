@@ -10,12 +10,22 @@
 }
 
 .section {
-    height: 75vh;
+    min-height: 75vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.section-subtitle {
+    font-size: 2em;
+}
+
+.HomePage a {
+    color: white;
+    
+}
+
 
 // LANDING SECTION
 .LandingSection {
@@ -119,13 +129,19 @@
 
 // SECTIONS
 
-.what,
-.when-where {
+// WHAT
+.what {
     .section-title,
-    .section-text {
+    .section-description {
         width: 50%;
+        text-align: center;
+    }
+
+    .section-description {
+        padding: 0 2%;
     }
 }
+
 
 .who {
     flex-direction: column;
@@ -139,8 +155,59 @@
     }
 }
 
+
+
+.immersive {
+    flex-direction: column;
+}
+
+.immersive .section-description {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-subtitle {
+    text-align: center;
+}
+
+//WHEN - WHERE
+
+.when-where {
+    justify-content: space-evenly;
+}
+
+.when-where .row {
+    flex-direction: column;
+    text-align: center;
+}
+
+// WHO
+
+.who .section-text .section-subtitle {
+    font-size: 1.8em;
+}
+
+.who .section-text {
+    padding-top: 2%;
+}
+
+// why
+
+.why {
+    direction: flex;
+    flex-direction: column;
+}
+
 .why .section-title {
     text-align: right;
     width: 100%;
-    padding-right: 10%;
+    padding-right: 20%;
+}
+
+.why .section-description {
+    padding: 0 5%;
 }
