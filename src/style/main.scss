@@ -1,11 +1,12 @@
 @import 'constants';
 
+@import 'buttons';
 @import 'home';
 @import 'layout';
 
 body {
     margin: 0px;
-    font-family: "DM Serif Text"
+    font-family: $text-font;
 }
 
 .document {
