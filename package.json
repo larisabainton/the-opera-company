@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && echo 'theopera.company' > ./public/CNAME && gh-pages -d public pages"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
