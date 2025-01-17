@@ -1,0 +1,162 @@
+@import 'background-colors';
+@import 'landing-section';
+
+// GENERAL
+.HomePage {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.gradient {
+    height: 15vh;
+}
+
+.section {
+    min-height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-subtitle {
+    font-size: 2em;
+    text-align: center;
+}
+
+.HomePage a {
+    color: white;
+
+}
+.section-title {
+    font-family: $display-font;
+}
+
+.section-paragraphs {
+    padding: 0 3%;
+}
+
+
+// WHAT
+.what {
+    .section-title,
+    .section-description {
+        width: 50%;
+        text-align: center;
+    }
+
+    .section-description {
+        padding: 0 2%;
+    }
+}
+
+
+// IMMERSIVE
+.immersive,
+.questions {
+    .section-title {
+        padding: 0 10%;
+        text-align: center;
+    }
+}
+
+.immersive {
+    flex-direction: column;
+}
+
+.immersive .section-description {
+    display: flex;
+}
+
+
+//WHEN - WHERE
+.when-where {
+    display: flex;
+}
+
+.when-where .row {
+    text-align: center;
+    height: 15vh;
+    width: 40vw;
+}
+
+// WHO
+
+.who {
+    flex-direction: column;
+}
+
+.who .section-text .section-subtitle {
+    font-size: 1.8em;
+}
+
+.who .section-text {
+    padding: 2% 5%;
+}
+
+.who .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+// why
+
+.why {
+    direction: flex;
+    flex-direction: column;
+}
+
+.why .section-title {
+    text-align: right;
+    width: 100%;
+    padding-right: 20%;
+}
+
+.why .section-description {
+    padding: 0 5%;
+}
+
+@media screen and (max-width: 700px) {
+    .what {
+        flex-direction: column;
+
+        .section-title,
+        .section-description {
+            width: 100%;
+        }
+
+        .section-description .section-paragraphs,
+        .section-description .section-subtitle {
+            padding: 0 4%;
+        }
+    }
+
+    .immersive,
+    .questions {
+        .section-title {
+            padding: 0 5%;
+        }
+    }
+
+    .immersive .section-paragraphs {
+        padding: 0 5%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .when-where {
+        flex-direction: column;
+
+        .row {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .who {
+        font-size: .8em;
+    }
+}
