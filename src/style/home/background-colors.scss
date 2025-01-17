@@ -1,0 +1,44 @@
+.section-1 {
+    background-color: $color-1
+}
+
+.gradient-1 {
+    background: linear-gradient($color-1, $color-2)
+}
+
+.section-2 {
+    background-color: $color-2
+}
+
+.gradient-2 {
+    background: linear-gradient($color-2, $color-3)
+}
+
+.section-3 {
+    background-color: $color-3
+}
+
+.gradient-3 {
+    background: linear-gradient($color-3, $color-4)
+}
+
+.section-4 {
+    background-color: $color-4
+}
+
+.gradient-4 {
+    background: linear-gradient($color-4, $color-5)
+}
+
+.section-5 {
+    background-color: $color-5
+}
+
+.gradient-5 {
+    background: linear-gradient($color-5, $color-6)
+}
+
+.section-6 {
+    color: $color-1;
+    background-color: $color-6
+}
