@@ -1,14 +1,14 @@
-button {
+.TicketsButton {
     background-color: $button-color; 
     border: none;
-    padding: 1%;
+    padding: .7em;
     border-radius: 5px;
     font-family: $text-font;
-}
-
-button a {
     text-decoration: none;
     color: white;
-    font-size: 1.5em;
     font-weight: bold;
+}
+
+.TicketsButton:hover {
+    background-color: $button-color--hover;
 }

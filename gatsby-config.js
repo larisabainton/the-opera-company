@@ -39,6 +39,9 @@ module.exports = {
       }, {
         name: "Quicksand",
         file: 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap',
+      }, {
+        name: "Ohno Blazeface",
+        file: 'https://use.typekit.net/pyg4ksq.css',
       }]
     }
     
