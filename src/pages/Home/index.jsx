@@ -4,18 +4,14 @@ import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
 const whatText = 
-    <div>
+    <div className="section-paragraphs">
         <p>Die Fledermaus is a comic operetta (an opera with spoken dialogue) where a fancy masquerade ball turns into a wild night of mix-ups, secret identities, and a prank that spirals out of control.</p>
-        <p>The operetta was originally written in 1874 by Johann Strauss II in German, but our performances will be in English, and
-            <div className="immersive-text">
-                    <b>immersive </b>
-                    <StaticImage src="./../../assets/down-arrow.svg"/>
-                </div>
-            </p>
+        <p>The operetta was originally written in 1874 by Johann Strauss II in German, but our performances will be in English, and <b>immersive </b></p>
+        <StaticImage className="down-arrow" src="./../../assets/down-arrow.svg"/>
     </div>;
 
 const immersiveText =
-    <div>
+    <div className="section-paragraphs">
         <div className="section-subtitle">Become part of the story in our <b>immersive</b> production </div>
         <p>You’ll start the performance in one room, then head into another for Act 2.</p>
             <p>After intermission, you’ll move again for Act 3.</p>
@@ -88,18 +84,25 @@ const Home = () => {
                 <div className="section-title">You're Invited to the Ball</div>
                 <div className="section-description">
                     {immersiveText}
-                    <StaticImage src=""/>
                 </div>
             </div>
             <div className="gradient gradient-2"></div>
             <div className="when-where section section-3">
-                <div className="row">
-                    <div className="section-title">When</div>
-                    <p>March 1st at 7pm <br></br>March 2nd at 3pm</p>
+                <div className="column">
+                    <div className="row">
+                        <div className="section-title">When</div>
+                    </div>
+                    <div className="row">
+                        <p>March 1st at 7pm <br></br>March 2nd at 3pm</p>
+                    </div>
                 </div>
-                <div className="row">
-                    <div className="section-title">Where</div>
-                    <p>MASARY Studios <br></br>15 Channel Center St #105<br></br> Boston, MA</p>
+                <div className="column">
+                    <div className="row">
+                        <div className="section-title">Where</div>
+                    </div>
+                    <div className="row">
+                        <p>MASARY Studios <br></br>15 Channel Center St #105<br></br> Boston, MA</p>
+                    </div>
                 </div>
             </div>
             <div className="gradient gradient-3"></div>
