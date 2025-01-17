@@ -1,19 +1,16 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 import TicketsButton from "../../components/TicketsButton"
-import BackgroundVideo from "../../assets/backgroundVideo.mp4";
+import { StaticImage } from "gatsby-plugin-image";
 
 const LandingSection = () => {
     return (
         <div className="LandingSection">
             <div className="LandingSection_background background">
-                <video autoPlay loop muted playsInline className="background-video">
-                    <source src={BackgroundVideo} type="video/mp4"/>
-                </video> 
+                <StaticImage src="./../../assets/background-image.png" alt="Fledermaus poster" />
             </div>
             <div className="LandingSection_foreground foreground">
                 <div className="foreground_hook">
-                   <StaticImage src ="../../assets/Welcome.png" alt="Welcome to the opera" />
+                   <div className="title">Die Fledermaus</div>
                 </div>
                 <TicketsButton />
             </div>
