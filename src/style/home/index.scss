@@ -85,14 +85,20 @@
 
 .who {
     flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 
 .who .section-text .section-subtitle {
     font-size: 1.8em;
+    padding: 1.5% 0;
 }
 
 .who .section-text {
     padding: 2% 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .who .row {
@@ -100,7 +106,16 @@
     justify-content: space-between;
 }
 
-// why
+.who .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 700px;
+}
+
+// WHY
 
 .why {
     direction: flex;
@@ -115,6 +130,72 @@
 
 .why .section-description {
     padding: 0 5%;
+}
+
+// QUESTIONS
+
+.questions {
+    flex-direction: column;
+    padding-bottom: 6%;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.questions .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+    width: 45%;
+    min-width: 250px;
+
+    input,
+    textarea {
+        font-family: $text-font;
+        color: $color-1;
+        background-color: transparent;
+        font-size: 1em;
+    }
+
+    input {
+        border-width: 0px;
+        border-bottom: 2px solid $color-1;
+    }
+
+    textarea {
+        border: 2px solid $color-1;
+        width: 96%;
+        padding: 2%;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: $color-1;
+    }
+
+    input:focus,
+    textarea:focus {
+        outline: none;
+    }
+
+    button {
+        background-color: $color-1;
+        color: white;
+        font-family: $text-font;
+        font-size: 1em;
+        border: 0px;
+        padding: 2%;
+        border-radius: 5px;
+        width: 10em;
+        align-self: center;
+    }
+
+    button:hover {
+        background-color: $color-3;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -158,5 +239,11 @@
 @media screen and (max-width: 450px) {
     .who {
         font-size: .8em;
+    }
+
+    .questions {
+        .section-title {
+            font-size: 1.8em;
+        }
     }
 }

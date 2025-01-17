@@ -24,7 +24,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .5%
+    padding: .5%;
+    font-size: .7em;
+    background-color: $color-6;
 }
 
 @media screen and (max-width: 450px) {  

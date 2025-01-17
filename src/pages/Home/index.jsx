@@ -124,7 +124,16 @@ const Home = () => {
             </div>
             <div className="gradient gradient-5"></div>
             <div className="questions section section-6">
-                <div className="section-title">I Have More Questions</div>
+                <div className="section-title">More Questions?</div>
+                <div className="contact-form">
+                    <form name="contact form" method="post" action="https://formspree.io/f/movvzkww">
+                        <input type="text" aria-label="name" name="name" id="name" placeholder="Name" />
+                        <input type="email" aria-label="email" name="email" id="email" placeholder="Email" />
+                        <input type="text" aria-label="subject" name="subject" id="subject" placeholder="Subject" />
+                        <textarea aria-label="message" name="message" id="message" rows="5" placeholder="Type your message here..."/>
+                    <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     )
