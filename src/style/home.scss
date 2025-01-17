@@ -23,7 +23,7 @@
 
 .HomePage a {
     color: white;
-    
+
 }
 
 
@@ -60,13 +60,10 @@
     justify-content: center;
 }
 
-.LandingSection_foreground .foreground_hook {
-    width: 75%;
-}
-
 .LandingSection_foreground .title {
     text-align: center;
     font-size: 4.5em;
+    padding-bottom: 3%;
 }
 
 .background-video {
@@ -122,7 +119,10 @@
 
 // FONTS
 
-.title,
+.title {
+    font-family: "hegante";
+}
+
 .section-title {
     font-family: $display-font;
 }
@@ -192,7 +192,7 @@
 }
 
 .who .section-text {
-    padding-top: 2%;
+    padding: 2% 5%;
 }
 
 // why
