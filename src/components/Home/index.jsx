@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 
 const whatText = 
     <div className="section-paragraphs">
-        <p>Die Fledermaus is a comic operetta (an opera with spoken dialogue) where a fancy masquerade ball turns into a wild night of mix-ups, secret identities, and a prank that spirals out of control.</p>
+        <p>Die Fledermaus is a comic operetta (an opera with spoken dialogue) where a glamorous ball turns into a wild night of mix-ups, secret identities, and a prank that spirals out of control.</p>
         <p>The operetta was originally written in 1874 by Johann Strauss II in German, but our performances will be in English, and <b>immersive </b></p>
         <StaticImage className="down-arrow" src="./../../assets/down-arrow.svg"/>
     </div>;
@@ -65,7 +65,7 @@ const whyText =
             Opera is an amazing mixture of dramatic plotlines, beautiful music, and incredible athletic abilities.
             It might have a reputation for being boring and inaccessible, but we promise you'll never be bored at our shows.
         </p>
-        <p><a href="/">Come see for yourself!</a></p>
+        <p><a target="_blank" rel="noreferrer" href="https://www.eventbrite.com/e/die-fledermaus-an-immersive-opera-tickets-1208554120909?aff=oddtdtcreator">Come see for yourself!</a></p>
     </div>
 
 const Home = () => {
@@ -81,7 +81,8 @@ const Home = () => {
             </div>
             <div className="gradient gradient-1"></div>
             <div className="immersive section section-2">
-                <div className="section-title">You're Invited to the Ball</div>
+                <div className="section-title">
+                    <a target="_blank" rel="noreferrer" href="https://www.eventbrite.com/e/die-fledermaus-an-immersive-opera-tickets-1208554120909?aff=oddtdtcreator">You're Invited to the Ball</a></div>
                 <div className="section-description">
                     {immersiveText}
                 </div>
