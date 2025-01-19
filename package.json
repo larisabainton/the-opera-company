@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && echo 'theopera.company' > ./public/CNAME && gh-pages -d public pages"
+    "deploy": "gatsby build && echo 'theopera.company' > ./public/CNAME && gh-pages -d public"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
