@@ -20,7 +20,7 @@ const immersiveText =
     </div>;
 
 const castArray = [
-    { character: "Eisenstein", name: "Andrew Secker"},
+    { character: "Eisenstein", name: "Tyler Cesario"},
     { character: "Rosalinde", name: "Larisa Bainton Hernandez"},
     { character: "Adele", name: "Megan Hull"},
     { character: "Prince Orlofsky", name: "Becca Allen"},
