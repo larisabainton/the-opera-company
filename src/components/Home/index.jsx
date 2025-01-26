@@ -26,7 +26,7 @@ const castArray = [
     { character: "Prince Orlofsky", name: "Becca Allen"},
     { character: "Alfred", name: "Michael Gonzalez"},
     { character: "Dr Falke", name: "Juan Suarez"},
-    { character: "Frank", name: "Marcus Schenck"},
+    { character: "Frank", name: "Carlo Bunyi"},
     { character: "Dr Blind", name: "Sophie Urquhart"},
     { character: "Ida", name: "Julia Pottinger"},
     { character: "Frosch", name: "Celeste Pellegrino"},
