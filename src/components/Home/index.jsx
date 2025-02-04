@@ -24,7 +24,7 @@ const castArray = [
     { character: "Rosalinde", name: "Larisa Bainton Hernandez"},
     { character: "Adele", name: "Megan Hull"},
     { character: "Prince Orlofsky", name: "Becca Allen"},
-    { character: "Alfred", name: "Michael Gonzalez"},
+    { character: "Alfred", name: "Sam Crosby Schmidt"},
     { character: "Dr Falke", name: "Juan Suarez"},
     { character: "Frank", name: "Carlo Bunyi"},
     { character: "Dr Blind", name: "Sophie Urquhart"},
@@ -115,7 +115,7 @@ const Home = () => {
                     {directionList}
                     <div className="section-subtitle">Cast List</div>
                     {castList}
-                    <p>Chorus: Akela Franklin (Ida cover), Sophie Urquhart (Adele cover), Tim Levesque (Alfred cover), Soren Austenfeld</p>
+                    <p>Chorus: Akela Franklin (Ida cover), Sophie Urquhart (Adele cover), Soren Austenfeld</p>
                     </div>
             </div>
             <div className="gradient gradient-4"></div>
