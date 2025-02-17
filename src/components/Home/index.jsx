@@ -115,7 +115,7 @@ const Home = () => {
                     {directionList}
                     <div className="section-subtitle">Cast List</div>
                     {castList}
-                    <p>Chorus: Akela Franklin (Ida cover), Sophie Urquhart (Adele cover), Johan Hartman (Falke cover), Soren Austenfeld</p>
+                    <p>Chorus: Akela Franklin (Ida cover), Sophie Urquhart (Adele cover), Johan Hartman (Falke cover), Oliva Sheehy (Orlofsky cover), Soren Austenfeld</p>
                     </div>
             </div>
             <div className="gradient gradient-4"></div>
