@@ -23,7 +23,7 @@ const castArray = [
     { character: "Eisenstein", name: "Tyler Cesario"},
     { character: "Rosalinde", name: "Larisa Bainton Hernandez"},
     { character: "Adele", name: "Megan Hull"},
-    { character: "Prince Orlofsky", name: "Ali Collins"},
+    { character: "Prince Orlofsky", name: "Ali Onjiko"},
     { character: "Alfreda", name: "Sam Crosby Schmidt"},
     { character: "Dr Falke", name: "Juan Suarez"},
     { character: "Frank", name: "Carlo Bunyi"},
